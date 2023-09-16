@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThirdwebProvider
     activeChain={CeloAlfajoresTestnet}
-    clientId="your-client-id"
+    clientId="44787"
   >
       <Component {...pageProps} />
     </ThirdwebProvider>
